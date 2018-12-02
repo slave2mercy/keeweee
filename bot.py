@@ -4,7 +4,7 @@ from discord.ext import commands
 TOKEN = 'NTE4MjEzNDY3NzMyMzEyMDc0.DuNj9w.dRjKiE1_XiRSWiKj57ktp0N9i-U'
 client = commands.Bot(command_prefix = '!')
 
-extensions = ['fun,mimic']
+extensions = ['fun']
 
 @client.event
 async def on_ready():
