@@ -10,6 +10,10 @@ extensions = ['fun']
 async def on_ready():
 	print('Bot Online')
 	
+@client.event
+async def wait_until_login():
+    await client.change_presence(game=discord.Game(name='with you'))
+	
 @client.command()
 async def load(extension):
 	try:
