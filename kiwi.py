@@ -1,4 +1,6 @@
 import discord
+import youtube-dl
+import PyNaCl
 from discord.ext import commands
 
 TOKEN = 'NTE4NjE4OTQ3MTI2NTU4NzIw.DuTZ7A.y646cFyro388XT8LbEBBX0aUnFc'
