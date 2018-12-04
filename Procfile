@@ -1,1 +1,1 @@
-worker: python kiwi.py
+worker: python run.py
